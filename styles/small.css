@@ -6,11 +6,12 @@
 h1{
     font-family:'Kanit', sans-serif;
     justify-self:center;
-    
+    font-size: 1em;
   }
 h2, h3, h4, h5, h6{
   font-family:"IM Fell French Canon SC", Arial, sans-serif;
   justify-self:center;
+  font-size: 1em;
   
 }
 
@@ -18,7 +19,7 @@ body {
   background-color: aqua;
   font-family: "Work Sans", Helvetica, sans-serif;
   padding: 5px 25px;
-  font-size: 18px;
+  font-size: 0.5em;
   margin: 0 auto;
 }
 div {
@@ -26,6 +27,7 @@ div {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 #content {
   max-width:960px;
@@ -47,7 +49,7 @@ main {
 }
 
 header {
-  background-color: rgba(0, 0, 255, 0.692);
+  background-color: blue;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
