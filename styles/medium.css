@@ -8,4 +8,15 @@
     body {
         font-size: 1.2em;
     }
+    
+    #menu {
+        display: none;
+    }
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
 }
