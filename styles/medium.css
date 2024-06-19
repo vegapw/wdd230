@@ -2,20 +2,24 @@
     h2 {
         font-size: 1.5em;
     }
+
     img {
         border-radius: 12px;
     }
+
     body {
         font-size: 1.2em;
     }
-    
+
     #menu {
         display: none;
     }
+
     .navigation {
         flex-direction: row;
     }
-    .navigation li{
+
+    .navigation li {
         display: block;
         flex: 1 1 100%;
     }

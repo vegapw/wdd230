@@ -1,0 +1,16 @@
+@media screen and (min-width : 650px) {
+    .stack {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: .5rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+}

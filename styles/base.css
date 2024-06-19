@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body .home {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+main {
+  display: block;
+}
+
+header,
+main {
+  margin: 0 auto;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: .5rem;
+  align-items: center;
+  padding: 20px;
+}
+
+nav {
+  background-color: darkblue;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: .5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+nav .active {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.stackTitle h1 {
+  display: block;
+  text-align: center;
+  padding: 0.75rem 0;
+
+}
+
+.stack {
+  margin: 1rem 2vw;
+}
+
+.stack section {
+  border: 1px solid lightblue;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.stack h2 {
+  background-color: darkblue;
+  color: whitesmoke;
+  display: block;
+  text-align: center;
+  padding: .75rem 0;
+}
+
+.stack p {
+  padding: 10px;
+}
+
+.stack ul {
+  padding: .5rem;
+}
+
+.card p {
+  text-align: center;
+}
+
+header,
+footer {
+  background-color: darkgrey;
+  color: white;
+}
+
+footer {
+  display: block;
+  text-align: center;
+
+}
