@@ -29,7 +29,6 @@ hamButton.addEventListener('click', () => {
   hamButton.classList.toggle('open');
 });
 
-
 darkButton.addEventListener('click', () => {
   main.classList.toggle('dark');
   homeDiv.classList.toggle('dark');
