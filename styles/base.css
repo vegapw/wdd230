@@ -30,10 +30,28 @@ main {
 
 header {
   display: grid;
+  position: relative;
   grid-template-columns: 1fr 2fr;
   column-gap: .5rem;
   align-items: center;
   padding: 20px;
+}
+
+#darkButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  cursor: pointer;
+}
+
+main.dark,
+.home.dark {
+  background-color: black;
+}
+
+main.dark h1 {
+  color: white;
 }
 
 nav {
@@ -45,11 +63,15 @@ nav ul {
 }
 
 nav a {
-  display: block;
+  display: none;
   color: whitesmoke;
   text-align: center;
   padding: .5rem;
   text-decoration: none;
+}
+
+ul.open a {
+  display: block;
 }
 
 nav a:hover {
@@ -58,6 +80,25 @@ nav a:hover {
 
 nav .active {
   background-color: rgba(0, 0, 0, .4);
+}
+
+#menu {
+  font-size: 2rem;
+  border: 0;
+  background: none;
+  color: #fff;
+  width: 100%;
+  text-align: right;
+  cursor: pointer;
+  padding: .25rem 2vw;
+}
+
+#menu::before {
+  content: "☰";
+}
+
+#menu.open::before {
+  content: "X";
 }
 
 .stackTitle h1 {

@@ -5,8 +5,18 @@
         column-gap: .5rem;
     }
 
+    #menu {
+        display: none;
+    }
+
     nav ul {
         display: flex;
+    }
+
+    ul.menuItems a {
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 
     nav ul li {
