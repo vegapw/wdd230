@@ -1,0 +1,30 @@
+@media screen and (min-width : 650px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: .5rem;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    ul.menuItems a {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    #news {
+        grid-column: 1 / 3;
+    }
+
+}
