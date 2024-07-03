@@ -25,7 +25,7 @@
 <body>
     <div class="home">
         <header>
-            <img src="images/profile.jpg" alt="Fredy Vega profile">
+            <img src="images/profile.webp" alt="Fredy Vega profile" loading="lazy">
             <h2>Fredy Vega</h2>
             <img src="images/sun-moon-eclipse-svgrepo-com.svg" alt="Dark Mode" id="darkButton">
         </header>
@@ -39,6 +39,16 @@
             </ul>
         </nav>
         <main>
+            <div class="hero">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                    <img src="images/hero-large.webp" alt="Bogota Colombia Temple" width="400" height="200"
+                        loading="lazy">
+                </picture>
+                <div class="herolabel">
+                    <span>Bogota, Colombia - Temple</span>
+                </div>
+            </div>
             <div class="stackTitle">
                 <h1>WDD 230: Web Frontend Development</h1>
             </div>
@@ -66,8 +76,13 @@
                     <h2>Information</h2>
                     <p>Sabaneta, Colombia</p>
                     <p>75°F Partly Cloudly</p>
-                    <p>Number of visits: 1</p>
+                    <p>Number of visits: <span class="visits"></span></p>
                 </section>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15867.406343466138!2d-75.62712005735322!3d6.150624924605666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683deac15e213%3A0xd7d66a6bbf97ed8c!2sSabaneta%2C%20Antioquia!5e0!3m2!1sen!2sco!4v1719991799032!5m2!1sen!2sco"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </main>
         <footer>

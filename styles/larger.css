@@ -23,4 +23,8 @@
         flex: 1 1 100%;
     }
 
+    .stack iframe {
+        grid-column: 1 / 3;
+    }
+
 }

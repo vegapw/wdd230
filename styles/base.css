@@ -101,6 +101,32 @@ nav .active {
   content: "X";
 }
 
+.hero {
+  position: relative;
+}
+
+.hero picture {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.herolabel {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: rgba(255, 255, 255, .3);
+}
+
+.herolabel span {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .stackTitle h1 {
   display: block;
   text-align: center;
@@ -138,6 +164,11 @@ nav .active {
 
 .card p {
   text-align: center;
+}
+
+.stack iframe {
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 header,
