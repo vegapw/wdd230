@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredy Vega - WDD 230 - Web Frontend Development</title>
+    <meta name="description"
+        content="This is course assignment portal for WDD 230 - Web Frontend Development made by Fredy Vega">
+    <meta name="author" content="Fredy Vega">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Portal home page">
+    <meta property="og:type" content="website">
+    <meta property="og:image"
+        content="https://previews.123rf.com/images/diegograndi/diegograndi1704/diegograndi170401930/77151649-vista-panor%C3%A1mica-de-medell%C3%ADn-colombia.jpg">
+    <meta property="og:url" content="https://vegapw.github.io/wdd230/">
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            <img src="images/profile.webp" alt="Fredy Vega profile" loading="lazy">
+            <h2>Fredy Vega</h2>
+            <img src="images/sun-moon-eclipse-svgrepo-com.svg" alt="Dark Mode" id="darkButton">
+        </header>
+        <nav>
+            <button id="menu"></button>
+            <ul class="menuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href=" chamber/">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="form.html" class="active">Form</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Portal Registration</h1>
+            <form action="record.html" method="get" class="wf">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                    <label> Username* <input type="text" name="username" id="username" required></label>
+                    <label> Password* <input type="password" name="pass" id="pass" required pattern="[A-Za-z]{8,}"
+                            title="The value must be at least eight (8) characters long and can only be alpha-numeric"></label>
+                    <label> Confirm Password* <input type="password" name="cpass" id="cpass" required
+                            pattern="[A-Za-z]{8,}"></label>
+                    <div id="feedback"></div>
+                    <label>Email* <input type="email" name="email" id="email" required
+                            pattern="[a-zA-Z0-9._%+\-]+@byui\.edu"
+                            title="Please enter an email address from the byui.edu domain"
+                            placeholder="email from the byui.edu domain"></label>
+                    <label>Page Rating
+                        <span id="displayRange">1</span>
+                        <input type="range" id="range" name="range" min="1" max="10" value="1" step="1"
+                            list="rangevalues">
+                    </label>
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                </fieldset>
+                <input type="submit" value="Send My Application">
+            </form>
+        </main>
+        <footer>
+            <p>&copy; <span id="year"></span> </p>
+            <p>Fredy Vega</p>
+            <p>Colombia</p>
+            <p>Last modified: <span id="lastModified"></span></p>
+        </footer>
+    </div>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/formValidation.js"></script>
+</body>
+
+</html>
