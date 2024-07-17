@@ -1,3 +1,13 @@
+:root {
+    --fontcol: #000;
+    --fontcol2: #fff;
+    --back: #6B8F71;
+    --back2: #1D1E18;
+    --back3: #AAD2BA;
+    --border1: #D9FFF5;
+    --font-size: .9rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -31,8 +41,8 @@ header .top {
 
 header,
 footer {
-    background-color: #6B8F71;
-    color: #000;
+    background-color: var(--back);
+    color: var(--fontcol);
 }
 
 #shield {
@@ -56,11 +66,12 @@ h2,
 h3 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
+    text-align: center;
 }
 
 nav {
-    background-color: #1D1E18;
-    color: #fff;
+    background-color: var(--back2);
+    color: var(--fontcol2);
 }
 
 nav ul {
@@ -71,7 +82,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: #fff;
+    color: var(--fontcol2);
     text-align: center;
     padding: .5rem;
     text-decoration: none;
@@ -93,7 +104,7 @@ nav .active {
     font-size: 2rem;
     border: 0;
     background: none;
-    color: #fff;
+    color: var(--fontcol2);
     width: 100%;
     text-align: right;
     cursor: pointer;
@@ -113,16 +124,17 @@ main {
 }
 
 main .card {
-    border: 1px solid #D9FFF5;
-    background-color: #AAD2BA;
+    border: 1px solid var(--border1);
+    background-color: var(--back3);
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
 }
 
-.card h2 {
-    background-color: #1D1E18;
-    color: #fff;
+.card h2,
+h3 {
+    background-color: var(--back2);
+    color: var(--fontcol2);
     display: block;
     text-align: center;
     padding: .75rem 0;
@@ -151,6 +163,75 @@ div.photos {
 }
 
 
+/*-------- Form Styling Section--------*/
+
+main .join {
+    margin: 1rem auto;
+}
+
+.wf fieldset {
+    margin: 2rem 0;
+    border: solid 1px var(--back2);
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf legend {
+    color: var(--fontcol);
+    padding: 0 .5rem;
+}
+
+.wf label {
+    display: block;
+    padding-top: 1rem;
+    font-size: var(--font-size);
+}
+
+.wf div {
+    padding-top: 1rem;
+    font-size: var(--font-size);
+}
+
+.wf input[type="text"],
+.wf input[type="email"],
+.wf input[type="tel"],
+.wf textarea {
+    display: block;
+    background-color: #eee;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.wf input[type="radio"] {
+    margin-right: 6px;
+}
+
+.wf input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--back2), #212416);
+    color: var(--fontcol2);
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    padding: .8rem;
+}
+
+.wf input:required {
+    border-right: 6px solid red;
+}
+
+.wf input:required:valid {
+    border-right: 6px solid green;
+}
+
+
+/*-------- Keyframes Section--------*/
 @keyframes fade {
     0% {
         opacity: 0;
