@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    column-gap: 15px;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgb(66, 66, 210);
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>p {
+    min-height: 20px;
+    padding: 2px;
+}
+
+section>h2 {
+    color: #eee;
+    padding: 8px 3px;
+}
+
+img {
+    width: auto;
+    max-width: 340px;
+    box-shadow: 0 0 30px #777;
+    height: 440px;
+    border: 1px solid #333;
+    margin-top: 5px;
+}
+
+header,
+footer {
+    background-color: crimson;
+    color: #eee;
+    text-align: center;
+    margin: 0 auto;
+}
