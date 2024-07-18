@@ -1,0 +1,28 @@
+{
+    "familyName": "Vega Zapata",
+    "dateMoved": "2018-05-20",
+    "familySize": 4,
+    "visitedBishopric": true,
+    "members": [
+        {
+            "name": "Fredy Vega",
+            "gender": "Male",
+            "birthDate": "1985-01-07"
+        },
+        {
+            "name": "Isabel Zapata",
+            "gender": "Female",
+            "birthDate": "1993-03-25"
+        },
+        {
+            "name": "Grace Vega",
+            "gender": "Female",
+            "birthDate": "2019-12-05"
+        },
+        {
+            "name": "Emma Vega",
+            "gender": "Female",
+            "birthDate": "2022-08-02"
+        }
+    ]
+}
