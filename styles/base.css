@@ -166,6 +166,18 @@ nav .active {
   text-align: center;
 }
 
+.card #temperature {
+  font-size: 2rem;
+}
+
+.card #tempDescription {
+  text-transform: capitalize;
+}
+
+.card figure {
+  text-align: center;
+}
+
 .stack iframe {
   margin: 0 auto;
   max-width: 100%;
