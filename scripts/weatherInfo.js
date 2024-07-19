@@ -22,12 +22,14 @@ async function getData(url) {
 }
 
 function displayResults(data) {
+    const iconImg = document.createElement('img');
     town.textContent = `${data.name}, ${data.sys.country}`;
     temperature.innerHTML = `${data.main.temp}&deg;C`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
-    icon.setAttribute('src', iconsrc);
-    icon.setAttribute('alt', desc);
+    iconImg.setAttribute('src', iconsrc);
+    iconImg.setAttribute('alt', desc);
+    icon.appendChild(iconImg);
     description.textContent = desc;
 
 }

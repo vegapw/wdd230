@@ -162,9 +162,14 @@ nav .active {
   padding: .5rem;
 }
 
+.stack li {
+  padding: .3rem;
+}
+
 .card p {
   text-align: center;
 }
+
 
 .card #temperature {
   font-size: 2rem;
