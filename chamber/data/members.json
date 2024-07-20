@@ -5,56 +5,56 @@
             "address": "CARRERA 48 52 SUR 81 AVENIDA LAS VEGAS",
             "phonenumber": "6046049600",
             "website": "https://www.crystal.com.co/",
-            "image": "chamber/images/Logo-crystal.webp",
-            "membershiplevel": "Gold"
+            "image": "images/Logo-crystal.webp",
+            "membershiplevel": "gold"
         },
         {
             "name": "Concesionaria Vial Del Pacifico SAS",
             "address": "CALLE 79 SUR 47 E 62 P 2",
             "phonenumber": "3207103032",
             "website": "https://covipacifico.co/",
-            "image": "chamber/images/Logo-covipacifico.webp",
-            "membershiplevel": "Gold"
+            "image": "images/Logo-covipacifico.webp",
+            "membershiplevel": "gold"
         },
         {
             "name": "Laboratorio Profesional Farmaceutico SAS",
             "address": "CARRERA 43 A 61 SUR 84",
             "phonenumber": "6043227980",
             "website": "https://www.laproff.com/",
-            "image": "chamber/images/logo-laproff.webp",
-            "membershiplevel": "Silver"
+            "image": "images/logo-laproff.webp",
+            "membershiplevel": "silver"
         },
         {
             "name": "Maquila Internacional De Confeccion SAS",
             "address": "CALLE 60 SUR 43 A 97",
             "phonenumber": "6044442849",
             "website": "https://co.linkedin.com/company/mic-maquilainternacionaldeconfeccion",
-            "image": "chamber/images/mic_maquilainternacionaldeconfeccion_logo.webp",
-            "membershiplevel": "Silver"
+            "image": "images/mic_maquilainternacionaldeconfeccion_logo.webp",
+            "membershiplevel": "silver"
         },
         {
             "name": "Electro Porcelana Gamma SAS",
             "address": "CARRERA 48 72 SUR 01 AV LAS VEGAS",
             "phonenumber": "6043058000",
             "website": "https://www.gamma.com.co/",
-            "image": "chamber/images/Logo-Gamma-60-años-03.webp",
-            "membershiplevel": "Bronze"
+            "image": "images/Logo-Gamma-60-años-03.webp",
+            "membershiplevel": "bronze"
         },
         {
             "name": "Transportadora De Carga Antioquia SAS",
             "address": "CALLE 79 SUR 47 E 10",
             "phonenumber": "3113745313",
             "website": "https://carga.com.co/",
-            "image": "chamber/images/logo_carga.webp",
-            "membershiplevel": "Bronze"
+            "image": "images/logo_carga.webp",
+            "membershiplevel": "bronze"
         },
         {
             "name": "Plasticos Truher SA",
             "address": "CALLE 67 SUR 48 B 95",
             "phonenumber": "6043051100",
             "website": "https://www.plasticostruher.com/",
-            "image": "chamber/images/logo-plasticos-truher_0.webp",
-            "membershiplevel": "Bronze"
+            "image": "images/logo-plasticos-truher_0.webp",
+            "membershiplevel": "bronze"
         }
     ]
 }
