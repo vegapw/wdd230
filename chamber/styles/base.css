@@ -148,9 +148,76 @@ h3 {
     text-align: center;
 }
 
-.gold p {
+/*---------- Directory Style  ------------*/
+
+#cards.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 5px;
+    align-items: center;
     text-align: center;
 }
+
+#cards.grid .card {
+    margin: 1rem 1rem;
+    height: 90%;
+}
+
+#cards.grid p {
+    padding: 10px;
+}
+
+#cards.grid h2 {
+    grid-area: 1 / 1 / auto / -1;
+    margin-top: 15px;
+}
+
+#cards.grid img {
+    height: 100%;
+    max-height: 50px;
+    width: auto;
+    padding: .5rem;
+}
+
+#cards.list {
+    display: flex;
+    flex-direction: column;
+}
+
+#cards.list .card {
+    display: block;
+    margin: 5px 5px;
+    padding: 0.3rem;
+}
+
+#cards.list .card>* {
+    margin: .3rem .2rem 0 .1rem;
+}
+
+
+#cards.list h2 {
+    margin: 15px 15px;
+}
+
+#cards.list h3 {
+    font-size: .8rem;
+    width: 100%;
+}
+
+#cards.list p {
+    width: 100%;
+    font-size: .6rem;
+    padding: 0;
+}
+
+#cards.list .card:nth-child(even) {
+    background-color: #bed;
+}
+
+#cards.list img {
+    display: none;
+}
+
 
 footer {
     display: block;

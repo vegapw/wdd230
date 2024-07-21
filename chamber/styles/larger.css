@@ -55,4 +55,33 @@
         height: fit-content;
     }
 
+    #cards.list .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
+
+    #cards.list .card>* {
+        margin: 1rem 0;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    #cards.list h3 {
+        font-size: .8rem;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    #cards.list p {
+        width: 100%;
+        font-size: .6rem;
+        align-content: center;
+        padding: 0;
+    }
+
+
+
 }
