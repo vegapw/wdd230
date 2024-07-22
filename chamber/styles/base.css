@@ -150,6 +150,19 @@ h3 {
 
 /*---------- Directory Style  ------------*/
 
+.views {
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: var(--back3);
+    text-align: center;
+}
+
+.views button {
+    padding: 1rem;
+    font-weight: 600;
+}
+
 #cards.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -169,7 +182,11 @@ h3 {
 
 #cards.grid h2 {
     grid-area: 1 / 1 / auto / -1;
-    margin-top: 15px;
+    margin: 15px;
+}
+
+#cards.grid .views {
+    grid-area: 2 / 1 / auto / -1;
 }
 
 #cards.grid img {
