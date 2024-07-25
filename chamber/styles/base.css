@@ -128,7 +128,7 @@ main .card {
     background-color: var(--back3);
     border-radius: 10px;
     overflow: hidden;
-    margin: 1rem 0;
+    margin: 1rem 1rem;
 }
 
 .card h2,
@@ -144,7 +144,8 @@ h3 {
     padding: 10px;
 }
 
-#wheater p {
+#wheater p,
+#forecast p {
     text-align: center;
 }
 
@@ -200,7 +201,7 @@ div.photos {
 }
 
 #cards.grid .card {
-    margin: 1rem 1rem;
+    /*margin: 1rem 1rem;*/
     height: 90%;
 }
 
@@ -263,7 +264,33 @@ div.photos {
     display: none;
 }
 
+/*---------Spotlight Styling------------*/
 
+#news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+#news .card {
+    margin: 1rem 1rem;
+    height: 90%;
+}
+
+#news p {
+    padding: 10px;
+}
+
+#news .membership {
+    text-transform: capitalize;
+}
+
+#news h2 {
+    grid-area: 1 / 1 / auto / -1;
+    margin: 15px;
+}
 
 /*-------- Form Styling Section--------*/
 

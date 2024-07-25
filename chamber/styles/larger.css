@@ -82,6 +82,7 @@
         padding: 0;
     }
 
-
-
+    #forecast {
+        grid-column: 2/3;
+    }
 }

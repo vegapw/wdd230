@@ -30,7 +30,7 @@
             "phonenumber": "6044442849",
             "website": "https://co.linkedin.com/company/mic-maquilainternacionaldeconfeccion",
             "image": "images/mic_maquilainternacionaldeconfeccion_logo.webp",
-            "membershiplevel": "silver"
+            "membershiplevel": "bronze"
         },
         {
             "name": "Electro Porcelana Gamma SAS",
@@ -38,7 +38,7 @@
             "phonenumber": "6043058000",
             "website": "https://www.gamma.com.co/",
             "image": "images/Logo-Gamma-60-años-03.webp",
-            "membershiplevel": "bronze"
+            "membershiplevel": "silver"
         },
         {
             "name": "Transportadora De Carga Antioquia SAS",
@@ -46,7 +46,7 @@
             "phonenumber": "3113745313",
             "website": "https://carga.com.co/",
             "image": "images/logo_carga.webp",
-            "membershiplevel": "bronze"
+            "membershiplevel": "silver"
         },
         {
             "name": "Plasticos Truher SA",
@@ -54,7 +54,7 @@
             "phonenumber": "6043051100",
             "website": "https://www.plasticostruher.com/",
             "image": "images/logo-plasticos-truher_0.webp",
-            "membershiplevel": "bronze"
+            "membershiplevel": "gold"
         }
     ]
 }
