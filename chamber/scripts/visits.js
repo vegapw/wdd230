@@ -1,13 +1,13 @@
 // Variables for welcome
 const welcome = document.querySelector('.welcome');
-let lastVisit = Date.parse(localStorage.getItem('lastVisitDate')) || 0;
+let lastVisit = Date.parse(localStorage.getItem('lastVisitDateCH')) || 0;
 const currentDate = new Date();
 const msToDays = 86400000;
 
 
 if (lastVisit === 0) {
     welcome.textContent = "Welcome! Let us know if you have any questions.";
-    localStorage.setItem('lastVisitDate', currentDate);
+    localStorage.setItem('lastVisitDateCH', currentDate);
 } else {
     const daysSinceLastVisit = (Date.now() - currentDate.getTime()) / msToDays;
     if (daysSinceLastVisit < 1) {

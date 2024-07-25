@@ -148,6 +148,34 @@ h3 {
     text-align: center;
 }
 
+footer {
+    display: block;
+    text-align: center;
+
+}
+
+
+div.photos {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    animation: fade 15s;
+}
+
+/*----------------Weather----------------*/
+
+.card #temperature {
+    font-size: 2rem;
+}
+
+.card #tempDescription {
+    text-transform: capitalize;
+}
+
+.card figure {
+    text-align: center;
+}
+
 /*---------- Directory Style  ------------*/
 
 .views {
@@ -235,20 +263,6 @@ h3 {
     display: none;
 }
 
-
-footer {
-    display: block;
-    text-align: center;
-
-}
-
-
-div.photos {
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
-    animation: fade 15s;
-}
 
 
 /*-------- Form Styling Section--------*/
