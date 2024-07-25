@@ -6,7 +6,11 @@ const myAPIkey = `feebc7e1e901130c1bd4d522b76df23a`;
 const myLat = '6.14955';
 const myLon = '-75.61519';
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLon}&units=metric&appid=${myAPIkey}`;
-const urlfore = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLon}&units=metric&cnt=20&appid=${myAPIkey}`
+const urlfore = `https://api.openweathermap.org/data/2.5/forecast?lat=${myLat}&lon=${myLon}&units=metric&cnt=24&appid=${myAPIkey}`
+const town1 = document.querySelector('#town_1');
+const temp1 = document.querySelector('#tempDay1');
+const temp2 = document.querySelector('#tempDay2');
+const temp3 = document.querySelector('#tempDay3');
 
 async function getData() {
     try {
@@ -35,11 +39,13 @@ function displayResults(data) {
     iconImg.setAttribute('alt', desc);
     icon.appendChild(iconImg);
     description.textContent = desc;
-
 }
 
 function displayForecast(data) {
-    console.log(data);
+    town1.textContent = `${data.city.name}, ${data.city.country}`;
+    temp1.innerHTML = `<strong>${data.list[7].dt_txt.substring(0, 10)}</strong><br> Temperature = ${data.list[7].main.temp}&deg;C`;
+    temp2.innerHTML = `<strong>${data.list[15].dt_txt.substring(0, 10)}</strong><br> Temperature = ${data.list[15].main.temp}&deg;C`;
+    temp3.innerHTML = `<strong>${data.list[23].dt_txt.substring(0, 10)}</strong><br> Temperature = ${data.list[23].main.temp}&deg;C`;
 }
 
 getData();
