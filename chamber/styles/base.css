@@ -187,11 +187,31 @@ footer {
 }
 
 
+/*----------------discover styling----------------*/
+
+.sidebar .card {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.sidebar p {
+    padding: 10px;
+}
+
 div.photos {
-    overflow: auto;
-    white-space: nowrap;
+    display: block;
     padding: 10px;
     animation: fade 15s;
+}
+
+div.photos h2 {
+    text-align: center;
+    margin: 15px 15px;
+}
+
+div.photos img {
+    width: 100%;
+    height: auto;
 }
 
 /*----------------Events----------------*/
