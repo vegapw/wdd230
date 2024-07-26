@@ -124,6 +124,32 @@ nav .active {
     content: "X";
 }
 
+/*-------------Banner styling--------------*/
+
+#ban {
+    display: none;
+}
+
+#ban.banner {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 50px;
+    border: 10px solid var(--back2);
+    position: relative;
+}
+
+#ban.banner button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: var(--back2);
+    border: 10px solid var(--border1);
+    border-radius: 30%;
+    font-size: 1rem;
+}
+
+
 main {
     display: block;
 }
