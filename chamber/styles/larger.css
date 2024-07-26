@@ -85,4 +85,9 @@
     #forecast {
         grid-column: 2/3;
     }
+
+    .events {
+        grid-column: 1 / 2;
+
+    }
 }

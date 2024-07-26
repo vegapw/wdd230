@@ -32,7 +32,7 @@
             <h1>Sabaneta Chamber of Commerce</h1>
         </div>
         <img src="images/Sabaneta_Mountains.jpg" alt="Sabaneta landscape" id="land">
-        <button id="registration">Register Now</button>
+        <button id="registration" formaction="join.html">Register Now</button>
     </header>
     <nav>
         <button id="menu"></button>
@@ -45,29 +45,39 @@
     </nav>
     <main>
         <div class="principal">
-            <section class="card">
+            <div class="events">
                 <h2>Current Events</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis earum, corrupti, molestias
-                    accusamus
-                    tenetur consequatur ad provident facere eveniet eligendi dolor maxime voluptatum fuga, quia
-                    consequuntur
-                    ipsam enim praesentium fugit!</p>
-            </section>
-            <section class="card" id="wheater">
-                <h2>Wheater Information</h2>
-                <p id="town"></p>
-                <p id="temperature"></p>
-                <figure id="tempIcon"></figure>
-                <p id="tempDescription"></p>
-                <p class="welcome"></p>
-            </section>
-            <section class="card" id="forecast">
-                <h2>Forecast Information</h2>
-                <p id="town_1"></p>
-                <p id="tempDay1"></p>
-                <p id="tempDay2"></p>
-                <p id="tempDay3"></p>
-            </section>
+                <section class="card">
+                    <h2>Great Opening</h2>
+                    <p>First General Meeting on August 31, 2024</p>
+                    <p>Location: Sabaneta, Principal park</p>
+                    <figure>
+                        <img src="images/parque-de-sabaneta.webp" alt="Parque Sabaneta">
+                    </figure>
+                </section>
+                <section class="card">
+                    <h2>First Workshop</h2>
+                    <p>How to create my own business on October 26, 2024</p>
+                    <p>Location: To be defined</p>
+                </section>
+            </div>
+            <div class="weatherCont">
+                <section class="card" id="wheater">
+                    <h2>Wheater Information</h2>
+                    <p id="town"></p>
+                    <p id="temperature"></p>
+                    <figure id="tempIcon"></figure>
+                    <p id="tempDescription"></p>
+                    <p class="welcome"></p>
+                </section>
+                <section class="card" id="forecast">
+                    <h2>Forecast Information</h2>
+                    <p id="town_1"></p>
+                    <p id="tempDay1"></p>
+                    <p id="tempDay2"></p>
+                    <p id="tempDay3"></p>
+                </section>
+            </div>
             <div id="news">
                 <h2>Lastest News</h2>
             </div>

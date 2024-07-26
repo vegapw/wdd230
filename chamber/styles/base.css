@@ -59,6 +59,11 @@ header #registration {
     position: absolute;
     bottom: 50px;
     right: 40px;
+    border: none;
+    background-image: linear-gradient(var(--back2), #212416);
+    color: var(--fontcol2);
+    box-shadow: 1px 1px 4px #999;
+    padding: .8rem;
 }
 
 h1,
@@ -163,6 +168,22 @@ div.photos {
     animation: fade 15s;
 }
 
+/*----------------Events----------------*/
+
+.events h2 {
+    margin-top: 15px;
+}
+
+.events img {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.events section {
+    text-align: center;
+}
+
 /*----------------Weather----------------*/
 
 .card #temperature {
@@ -201,7 +222,6 @@ div.photos {
 }
 
 #cards.grid .card {
-    /*margin: 1rem 1rem;*/
     height: 90%;
 }
 
@@ -281,6 +301,10 @@ div.photos {
 
 #news p {
     padding: 10px;
+}
+
+#news a {
+    font-size: .8rem;
 }
 
 #news .membership {
